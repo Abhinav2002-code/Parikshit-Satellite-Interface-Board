@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STM32L412RBT6P"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-13-16:03:40)
+    (mountForm default
+        (footprintRef "QFP50P1200X1200X160-64N")
+        (spec "System")
+    )
+)
