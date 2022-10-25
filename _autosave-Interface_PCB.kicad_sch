@@ -2342,9 +2342,9 @@
     (effects (font (size 0.762 0.762) italic) (justify left bottom))
     (uuid 9f868a4d-5119-4f29-a3cd-338d02178768)
   )
-  (text "https://www.youtube.com/watch?v=\naVUqaB0IMh4&ab_channel=Phil%E2%80%99sLab\nThe above is the link to the video \nwhich was reffereed during this video "
-    (at 241.3 152.4 0)
-    (effects (font (size 0.762 0.762) (thickness 0.1016) bold italic) (justify left bottom))
+  (text "https://www.youtube.com/watch?v=\naVUqaB0IMh4&ab_channel=Phil%E2%80%99sLab\n\nThe above is the link to the video \nwhich was reffereed during this video "
+    (at 236.22 153.67 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
     (uuid b7d63e05-6985-4af1-84b3-a62324380706)
   )
   (text "Check the connector footprint with \nthe one available in the LAB "
@@ -3159,7 +3159,7 @@
   (symbol (lib_id "power:+3V3") (at 60.96 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 47eb6540-4ecc-4ac9-ae7f-7bcc7f1af7af)
-    (property "Reference" "#PWR?" (id 0) (at 60.96 92.71 0)
+    (property "Reference" "#PWR0116" (id 0) (at 60.96 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 60.96 83.82 0))
@@ -3996,7 +3996,7 @@
   (symbol (lib_id "power:VBUS") (at 17.78 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dd7f1cd6-5cbe-4c2a-b90e-3d6470430cf5)
-    (property "Reference" "#PWR?" (id 0) (at 17.78 85.09 0)
+    (property "Reference" "#PWR0117" (id 0) (at 17.78 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 19.05 76.2 0))
@@ -4199,6 +4199,12 @@
     (path "/7a756a9a-47bc-452d-98a5-0d1c24c04116"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
+    (path "/47eb6540-4ecc-4ac9-ae7f-7bcc7f1af7af"
+      (reference "#PWR0116") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/dd7f1cd6-5cbe-4c2a-b90e-3d6470430cf5"
+      (reference "#PWR0117") (unit 1) (value "VBUS") (footprint "")
+    )
     (path "/765b67ce-2c12-4da2-9ba2-0e6a8c2479e2"
       (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
@@ -4264,12 +4270,6 @@
     )
     (path "/b32c7025-0e67-40b0-b375-165dd804c59d"
       (reference "#PWR0139") (unit 1) (value "+3.3VA") (footprint "")
-    )
-    (path "/47eb6540-4ecc-4ac9-ae7f-7bcc7f1af7af"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/dd7f1cd6-5cbe-4c2a-b90e-3d6470430cf5"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/a205f2cb-5dcf-4bfb-8e00-e48b0fecec82"
       (reference "CB1") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric")
