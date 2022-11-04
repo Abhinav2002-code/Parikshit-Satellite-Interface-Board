@@ -2932,7 +2932,7 @@
     (uuid 18637ffa-547f-4cbc-abb9-10778450da01)
     (property "Reference" "LMS1" (id 0) (at 42.545 168.91 90))
     (property "Value" "39nH" (id 1) (at 42.545 171.45 90))
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 42.545 173.99 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (id 2) (at 42.545 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 42.545 173.99 0)
@@ -3841,12 +3841,10 @@
   )
 
   (symbol (lib_id "Device:L") (at 35.56 95.25 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 8ece260d-199e-44fd-956a-d40950c3f424)
     (property "Reference" "LR1" (id 0) (at 35.56 91.44 90))
-    (property "Value" "39nH" (id 1) (at 35.56 91.44 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
+    (property "Value" "39nH" (id 1) (at 35.56 96.52 90))
     (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (id 2) (at 35.56 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4640,7 +4638,7 @@
       (reference "J7") (unit 1) (value "USB_B") (footprint "SamacSys_Parts:GMCB05B11124H1EU")
     )
     (path "/18637ffa-547f-4cbc-abb9-10778450da01"
-      (reference "LMS1") (unit 1) (value "39nH") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "LMS1") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/8ece260d-199e-44fd-956a-d40950c3f424"
       (reference "LR1") (unit 1) (value "39nH") (footprint "Inductor_SMD:L_0402_1005Metric")
