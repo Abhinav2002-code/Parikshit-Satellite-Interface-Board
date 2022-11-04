@@ -1,0 +1,45 @@
+PCB statistics report
+=====================
+- Date: 03-11-2022 20:04:57
+- Project: Interface_PCB
+- Board name: Interface_PCB
+
+Board
+-----
+- Width: 1822.62 mils
+- Height: 1877.36 mils
+- Area: 3204333.08 sq. mils
+
+Pads
+----
+- Through hole: 3
+- SMD: 180
+- Connector: 0
+- NPTH: 4
+
+Vias
+----
+- Through vias: 46
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|        | Front Side | Back Side | Total |
+|--------|------------|-----------|-------|
+|THT:    |         1  |        0  |    1  |
+|SMD:    |        37  |        0  |   37  |
+|Total:  |        38  |        0  |   38  |
+|        |            |           |       |
+
+Drill holes
+-----------
+
+| Count | Shape |     X Size |     Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|------------|------------|--------|---------|-------------|------------|
+|    42 | Round | 15.75 mils | 15.75 mils |    PTH |     Via |        F.Cu |       B.Cu |
+|     4 | Round | 82.68 mils | 82.68 mils |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 11.81 mils | 11.81 mils |    PTH |     Via |        F.Cu |       B.Cu |
+|     2 | Round | 51.18 mils | 51.18 mils |    PTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round | 47.64 mils | 47.64 mils |    PTH |     Pad |        F.Cu |       B.Cu |

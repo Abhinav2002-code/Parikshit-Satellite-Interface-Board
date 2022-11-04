@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32L412RBT6P
+D ARM Microcontrollers - MCU
+K
+F https://www.st.com/resource/en/datasheet/stm32l412c8.pdf
+$ENDCMP
+#
+#End Doc Library
